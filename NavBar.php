@@ -1,4 +1,4 @@
-<div class="container-fluid w3-purple w3-round-xxlarge w3-hide-small" style="height:85px;">
+<div class="container-fluid w3-purple w3-round-xxlarge w3-hide-small" style="height:85px; margin-top: 2px;">
         <div class="w3-image w3-center w3-margin-top">
         <h1 class="header-text w3-xxxlarge w3-text-orange w3-animate-fading"> 
          <span class="w3-text-white w3-left co cb" > &spades; &diams; &clubs; </span> <span class="fa fa-globe cb"> </span>
@@ -18,7 +18,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="Index.php?id=<?php echo mt_rand() ?>">Home</a></li>
+                        <li class="active"><a href="index.php?id=<?php echo mt_rand() ?>">Home</a></li>
                         <li class="">
                             <a  href="Forum.php?id=<?php echo mt_rand(); ?>"> Forum </a>
                         

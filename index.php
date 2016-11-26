@@ -16,10 +16,23 @@
         .header-text{ font-family: Brush Script MT, cursive;}
         .cl{text-shadow: 2px 2px 5px white;}
         .co{text-shadow: 2px 2px 5px orange;}
+        .cy{text-shadow: 2px 2px 5px yelightyellow;}
         .cb{text-shadow: 2px 2px 5px black;}
         .cp{text-shadow: 2px 2px 5px green;}
     </style>
     <script src="js/game.js" > </script>
+    <script>
+  //  $(document).ready(function(){
+//        $("button").click(function(){
+//            $("#div1").load("message.txt #p1", function(responseTxt, statusTxt, xhr){
+//                if(statusTxt == "success")
+//                    alert("External content loaded successfully!");
+//                if(statusTxt == "error")
+//                    alert("Error: " + xhr.status + ": " + xhr.statusText);
+//            });
+//        });
+//    });
+    </script>
 </head>
 <body class="w3-light-grey " 
  style="background-image:url(background-imager/Elegant_Background-6.jpg)">
@@ -29,7 +42,7 @@
     
     <div class="w3-card-12"><hr /></div>
     <!-- Container -->
-    <div class="container-fluid  " style="overflow-y: auto; height:470px">
+    <div class="container-fluid" style="overflow-y: auto; height:470px">
         <div class="w3-row-padding w3-light-grey w3-padding-top w3-margin-top w3-round-medium " >
             <!--Quater-->
             <div class="w3-quarter">
@@ -110,20 +123,9 @@
                   
                     <hr />
                     <div>
-                         <!--Orange Balls Small Dev
-                          <div class="w3-hide-large">
-                            <a  class="w3-btn w3-btn-floating w3-deep-orange">
-                                <span id="a1"></span>
-                            </a>
-                            <a  class="w3-btn w3-btn-floating w3-deep-orange">
-                                <span id="a2"></span>
-                            </a>
-                            <a  class="w3-btn w3-btn-floating w3-deep-orange">
-                                <span id="a3"></span>
-                            </a>
-                        </div>
+                  
                          <!--Orange Balls Large Dev-->
-                        <div class="w3-left w3-margin-left w3-hide-small">
+                        <div class="w3-left w3-margin-left">
                             <a  class="w3-btn w3-btn-floating w3-deep-orange">
                                 <span id="a1"></span>
                             </a>
@@ -134,20 +136,9 @@
                                 <span id="a3"></span>
                             </a>
                         </div>
-                         <!--Green Balls Small Dev
-                        <div class="w3-hide-large w3-padding-top">
-                            <a  class="w3-btn w3-btn-floating w3-green">
-                                <span id="w1"></span>
-                            </a>
-                            <a  class="w3-btn w3-btn-floating w3-green">
-                                <span id="w2"></span>
-                            </a>
-                            <a class="w3-btn w3-btn-floating w3-green">
-                                <span id="w3"></span>
-                            </a>
-                        </div>-->
+                     
                          <!--Green Balls Large Dev-->
-                        <div class="w3-right w3-margin-right w3-hide-small">
+                        <div class="w3-right w3-margin-right">
                             <a  class="w3-btn w3-btn-floating w3-green">
                                 <span id="w1"></span>
                             </a>
@@ -187,13 +178,14 @@
                 <div class="w3-card-2 w3-white w3-round-large">
                    <p class="w3-padding">
                      <button disabled="" class="btn btn-link w3-purple w3-round fa fa-money"> Claim your prize</button> 
-                    <button class="btn btn-link w3-purple w3-round fa fa-cc-mastercard "> Pay here</button></p>
+                    <a class="btn btn-link w3-purple w3-round 
+                         fa fa-cc-mastercard" href="#" data-toggle="modal" data-target="#winModal" > Pay here</a></p>
                 </div>
             </div>
         </div> 
-           
+        <hr />   
     </div>
-   <hr class="w3-margin-top cb" />
+   <?php include_once("ModalWin.htm"); ?>
    <?php include_once ("ContactUs.php") ?>
    <?php include_once("Help.htm") ?>
 </body>

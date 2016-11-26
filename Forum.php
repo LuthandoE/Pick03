@@ -95,18 +95,21 @@
 <body class="" style="background-image: url(background-imager/Elegant_Background-6.jpg);">
   <?php include_once ("NavBarC.htm") ?>
   <?php include_once ("ContactUs.php") ?>
-  <hr />
-  <div class="container-fluid"> 
+ <div class="w3-margin-24" ><hr /></div> 
+  <div class="container-fluid w3-margin"> 
     <div class="w3-row-padding w3-light-grey w3-round-large">
+      
        <div class="w3-quarter w3-hide-small">
          <div class="w3-card-2 w3-round-large w3-white">
             <header class="w3-padding w3-purple w3-round-large">
              <span class="fa fa-comment"></span> Talk To Us</header>
              <p class="w3-padding">Share your experience with us. Or if you have 
               any area that you think we should improve on then
-              talk to us.</p> <hr /> <br />
+              talk to us.</p>
+               <hr /> <br />
          </div>
        </div>
+       
        <div class="w3-half">
           <div class="w3-card-2 w3-round-large w3-white">
              <div class="w3-card w3-round-large">
@@ -127,9 +130,10 @@
              </div>
           </div>
        </div>
+       
        <div class="w3-quarter">ok</div>
     </div>
   </div> 
-
+  <div class="w3-margin-24 w3-hide-small" ><hr /></div>
 </body>
 </html>

@@ -50,7 +50,7 @@
                             <br />
                             
                             <button type="submit" name="btn_send" id="Send" class="w3-btn w3-round-large">Send</button>
-                            <div class="w3-text-green"><?php echo $message; ?></div>
+                            <div class="w3-text-green" id="div1"><?php //echo $message; ?> </div>
                         </form>
                     </div>
                 </div>

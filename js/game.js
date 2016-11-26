@@ -4,11 +4,14 @@
                $(".gy").addClass("w3-text-light-grey");
                $("#cl").hide();
             })();
+            //Checking if balls 1/2/3 is empty 
             function selectNum(userc1, userc2, userc3, num) {
                 if ($(userc1).text().trim() == "") {
                     $(userc1).text(num);
+                    
                 } else if ($(userc2).text().trim() == "") {
                     $(userc2).text(num);
+                    
                 } else if ($(userc3).text().trim() == "") {
                     $(userc3).text(num);
                 } else {
@@ -26,38 +29,42 @@
                 }
             }
        
-
+            //Showing users selection and generated numbers - Level one
             function radGenOne(userno1,userno2,userno3,
                  wnum1, wnum2, wnum3,dvresult) {
                 $(wnum1).text("" + Math.floor((Math.random() * 5) + 1));
                 $(wnum2).text("" + Math.floor((Math.random() * 5) + 1));
                 $(wnum3).text("" + Math.floor((Math.random() * 5) + 1));
-                 
-              
-                
-                       
-                       // $(dvresult).text("Winning Numbers: "+ num1.localeCompare(num2); 
-                 
-                 
+                    
             }
+            //Showing users selection and generated numbers - Level two
             function radGenTwo(userno1,userno2,userno3,
                  wnum1, wnum2, wnum3,dvresult) {
                 $(wnum1).text("" + Math.floor((Math.random() * 7) + 1));
                 $(wnum2).text("" + Math.floor((Math.random() * 7) + 1));
                 $(wnum3).text("" + Math.floor((Math.random() * 7) + 1));
             }
+            //Showing users selection and generated numbers - Level three
             function radGenThree(userno1,userno2,userno3,
                  wnum1, wnum2, wnum3,dvresult) {
                 $(wnum1).text("" + Math.floor((Math.random() * 10) + 1));
                 $(wnum2).text("" + Math.floor((Math.random() * 10) + 1));
                 $(wnum3).text("" + Math.floor((Math.random() * 10) + 1));
             }
-          
+            //function compareNum(usernum1){
+//                if($(usernum1).text().trim()== "4"){
+//                    $("#gm1").html("<p class='w3-text-red'>Error: You can't make changes at this stage!</p>");
+//                } else {
+//                    $("#gm1").html("<p class='w3-text-red'>aybo ey: You can't make changes at this stage!</p>");
+//                }
+//            }
                 
-            $("#u0").click(function () {
-                selectNum("#a1", "#a2", "#a3", "0");
-            })
-            // Level One
+            
+            // Make a selection for - Level One
+            
+            /*  If ball 1 is clicked function selectNum will check if 
+               orange ball 1/2/3 is empty and place 1 on an empty ball.*/
+               
             $("#u11").click(function () {
                 selectNum("#a1", "#a2", "#a3", "1");
             })
@@ -73,7 +80,7 @@
             $("#u5").click(function () {
                 selectNum("#a1", "#a2", "#a3", "5");
             })
-            // Level Two
+            // Make a selection for -  Level Two
             $("#u6").click(function () {
                 selectNum("#a1", "#a2", "#a3", "6");
             })
@@ -89,7 +96,7 @@
             $("#u10").click(function () {
                 selectNum("#a1", "#a2", "#a3", "10");
             })
-            //Level Three
+            // Make a selection for -  Level Three
             $("#rplay").click(function () {
                 $("#a1").text("");
                 $("#a2").text("");
@@ -167,7 +174,6 @@
             $("#L1").click(function(){
                 $("#u11").removeAttr("disabled");
                 $("#u11").removeClass("w3-light-grey").addClass("w3-amber");
-               // $(".gy").removeClass("w3-text-light-grey");
                 $("#cg1").removeClass("w3-text-light-grey");
                 
                 $("#u2").removeAttr("disabled");
@@ -223,7 +229,7 @@
                 } else {
 
                     radGenOne("#a1","#a2","#a3","#w1", "#w2", "#w3","#gm1");
-                    
+                    compareNum("#a1");
                     $("#play").attr("disabled", true).
                      addClass("w3-light-grey");
                     $("#edit").attr("disabled", true).
