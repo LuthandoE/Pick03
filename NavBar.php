@@ -1,5 +1,4 @@
-   
-   <div class="container-fluid w3-purple w3-round-xxlarge w3-hide-small" style="height:85px;">
+<div class="container-fluid w3-purple w3-round-xxlarge w3-hide-small" style="height:85px;">
         <div class="w3-image w3-center w3-margin-top">
         <h1 class="header-text w3-xxxlarge w3-text-orange w3-animate-fading"> 
          <span class="w3-text-white w3-left co cb" > &spades; &diams; &clubs; </span> <span class="fa fa-globe cb"> </span>
