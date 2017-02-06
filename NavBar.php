@@ -2,7 +2,7 @@
         <div class="w3-image w3-center w3-margin-top">
         <h1 class="header-text w3-xxxlarge w3-text-orange w3-animate-fading"> 
          <span class="w3-text-white w3-left co cb" > &spades; &diams; &clubs; </span> <span class="fa fa-globe cb"> </span>
-             <span class="cb"><strong>Pick'n Win -  Lucky Numbers !!!</strong></span></h1></div>
+             <span class="cb"><strong>Pick03 -  Lucky Numbers !!!</strong></span></h1></div>
     </div>
     
     <nav class="navbar navbar-inverse w3-black w3-card-12 w3-round-xxlarge">
@@ -14,7 +14,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php?id=<?php echo mt_rand() ?>">Pick' n Win</a>
+                    <a class="navbar-brand" href="index.php?id=<?php echo mt_rand() ?>">
+                    <span class="w3-large">Pick03</span></a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">

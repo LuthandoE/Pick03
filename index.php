@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pick'n Win</title>
+    <title>Pick03</title>
 	<meta charset="utf-8" />
     <link rel="stylesheet" href="assets/jquery.mobile-1.4.5.min.css" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -9,7 +9,6 @@
     <link href="assets/font-awesome-4.5.0/css/font-awesome.css" rel="stylesheet" />
     
     <script src="assets/jquery.mobile-1.4.5.min.js"></script>
-    <script src="assets/projs/gamejs.js"></script>
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <style>
@@ -21,18 +20,8 @@
         .cp{text-shadow: 2px 2px 5px green;}
     </style>
     <script src="js/game.js" > </script>
-    <script>
-  //  $(document).ready(function(){
-//        $("button").click(function(){
-//            $("#div1").load("message.txt #p1", function(responseTxt, statusTxt, xhr){
-//                if(statusTxt == "success")
-//                    alert("External content loaded successfully!");
-//                if(statusTxt == "error")
-//                    alert("Error: " + xhr.status + ": " + xhr.statusText);
-//            });
-//        });
-//    });
-    </script>
+    <script src="js/mobGame.js"></script>
+
 </head>
 <body class="w3-light-grey " 
  style="background-image:url(background-imager/Elegant_Background-6.jpg)">
@@ -46,7 +35,7 @@
         <div class="w3-row-padding w3-light-grey w3-padding-top w3-margin-top w3-round-medium " >
             <!--Quater-->
             <div class="w3-quarter">
-            <div class="w3-card-2 w3-white w3-round w3-border-top" >
+            <div class="w3-card-2 w3-white w3-round w3-hide-small w3-border-top" >
                 <header class=" w3-padding-4 w3-purple w3-center w3-round">
                 <h4 class="header-text w3-xlarge">How To Play</h4> </header>
                 <p class="w3-padding">
@@ -56,12 +45,30 @@
                 </p>
                 <hr />
             </div> 
-            <div class="w3-card-2 w3-white w3-round-large">
+            <!-- Small Dev Intro text -->
+            <div class="w3-card-2 w3-white w3-hide-large w3-round-larges w3-border-top" >
+                <header class=" w3-padding-4 w3-purple w3-center w3-round">
+                <h4 class="header-text w3-xlarge">Pick03</h4> </header>
+                <p class="w3-padding">
+                    Pick03 is a simple and fun 
+                   game of numbers where you select your 
+                   three lucky numbers.
+                </p>
+                <hr />
+            </div>
+            <div class="w3-card-2 w3-white w3-round-large w3-hide-small">
                <p class="w3-padding">
                    You can play as many times as you
                    want. The order of numbers 
                    you've selected does not have to be the same
                    as the winning numbers.<br /> 
+                   <a href="#" data-toggle="modal" data-target="#help" class="w3-text-blue">See more...</a>
+               </p>
+            </div>
+            
+            <!-- Small Dev Intro text -->
+            <div class="w3-card-2 w3-white w3-round-large w3-hide-large">
+               <p class="w3-padding"> 
                    <a href="#" data-toggle="modal" data-target="#help" class="w3-text-blue">See more...</a>
                </p>
             </div>
@@ -72,7 +79,7 @@
                 <div class="w3-card-2 w3-white w3-round-large">
                     <p class="w3-left w3-margin-left"><strong>Start Now :</strong></p><br />
                     <hr />
-                    <div>
+                    <div class="w3-center w3-left">
                         <div class="" id="gm1"> </div>
                         <button disabled="" id="u11" class="w3-btn w3-btn-floating w3-light-grey">
                             <span id="cg1" class="gy"> 1</span>
@@ -105,8 +112,8 @@
                             <span id="cg10" class="gy"> 10</span>
                         </button>
                        
-                    </div>
-                    <hr />
+                    </div><br>
+                    <hr /><br>
                         <div class="w3-center w3-margin-left">
                            <p> Choose Level Of The Game | 
                             <button id="cl"  class="w3-white w3-border-0"><span class="w3-text-blue">Change Level</span> </button></p>                        
@@ -123,9 +130,8 @@
                   
                     <hr />
                     <div>
-                  
-                         <!--Orange Balls Large Dev-->
-                        <div class="w3-left w3-margin-left">
+                        <!--Orange Balls Large Dev-->
+                        <div  class="w3-left w3-hide-small w3-margin-left">
                             <a  class="w3-btn w3-btn-floating w3-deep-orange">
                                 <span id="a1"></span>
                             </a>
@@ -136,9 +142,22 @@
                                 <span id="a3"></span>
                             </a>
                         </div>
+                        
+                         <!--Orange Balls small Dev-->
+                        <div  class=" w3-hide-large w3-padding-bottom w3-margin-left">
+                            <a  class="w3-btn w3-btn-floating w3-deep-orange">
+                                <span id="a1s"></span>
+                            </a>
+                            <a  class="w3-btn w3-btn-floating w3-deep-orange">
+                                <span id="a2s"></span>
+                            </a>
+                            <a  class="w3-btn w3-btn-floating w3-deep-orange">
+                                <span id="a3s"></span>
+                            </a>
+                        </div>
                      
                          <!--Green Balls Large Dev-->
-                        <div class="w3-right w3-margin-right">
+                        <div class="w3-right w3-hide-small w3-margin-right">
                             <a  class="w3-btn w3-btn-floating w3-green">
                                 <span id="w1"></span>
                             </a>
@@ -149,7 +168,20 @@
                                 <span id="w3"></span>
                             </a>
                         </div>
-                    </div><br />
+                        
+                        <!--Green Balls Small Dev-->
+                        <div class="w3-hide-large w3-center w3-margin-left">
+                            <a  class="w3-btn w3-btn-floating w3-green">
+                                <span id="w1w"></span>
+                            </a>
+                            <a  class="w3-btn w3-btn-floating w3-green">
+                                <span id="w2w"></span>
+                            </a>
+                            <a class="w3-btn w3-btn-floating w3-green">
+                                <span id="w3w"></span>
+                            </a>
+                        </div>
+                    </div><br class="w3-hide-small" />
                     <hr />
                     <div>
                         <button class="w3-btn w3-light-grey" id="rplay" disabled="">Replay</button>
@@ -167,7 +199,7 @@
                     </header>
                     <p class="w3-padding">
                         Win $1000 to $50 000 
-                        with Pick'n Win just by simple guessing
+                        with Pick03 just by simple guessing
                         your 3 lucky numbers. 
                     </p>
                     <hr />
@@ -175,11 +207,22 @@
                     Dollars and stand a chance to win thousands
                     of dollars in few minutes.</p>
                 </div>
-                <div class="w3-card-2 w3-white w3-round-large">
+                <div class="w3-card-2 w3-white w3-round-large w3-hide-small">
                    <p class="w3-padding">
                      <button disabled="" class="btn btn-link w3-purple w3-round fa fa-money"> Claim your prize</button> 
                     <a class="btn btn-link w3-purple w3-round 
                          fa fa-cc-mastercard" href="#" data-toggle="modal" data-target="#winModal" > Pay here</a></p>
+                </div>
+                
+                <!-- Small dev pay btn -->
+                <div class="w3-card-2 w3-white w3-round-large w3-hide-large w3-center">
+                    <p class="w3-padding"> <a class="btn btn-link w3-purple w3-round 
+                         fa fa-cc-mastercard" href="#" data-toggle="modal" data-target="#winModal" > Pay here</a></p>
+                </div>
+                
+                <div class="w3-card-2 w3-white w3-round-large w3-hide-large w3-center">
+                   <p class="w3-padding">
+                     <button disabled="" class="btn btn-link w3-purple w3-round fa fa-money"> Claim your prize</button> </p>
                 </div>
             </div>
         </div> 

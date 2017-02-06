@@ -5,15 +5,22 @@
                $("#cl").hide();
             })();
             //Checking if balls 1/2/3 is empty 
+            var user_array = [];
             function selectNum(userc1, userc2, userc3, num) {
                 if ($(userc1).text().trim() == "") {
                     $(userc1).text(num);
+                   // user_array [0] = $(userc1).text(num);
+                   // alert(user_array);
                     
                 } else if ($(userc2).text().trim() == "") {
                     $(userc2).text(num);
+                    //user_array [1] = $(userc2).text(num);
+                    //alert(user_array);
                     
                 } else if ($(userc3).text().trim() == "") {
                     $(userc3).text(num);
+                    //user_array [2] = $(userc3).text(num);
+                    //alert(user_array);
                 } else {
               
                     $("#gm1").
@@ -27,15 +34,26 @@
                         $("#gm1").html("<p class='w3-text-red'>Error: You can't make changes at this stage!</p>");
                     }
                 }
+               
             }
        
             //Showing users selection and generated numbers - Level one
             function radGenOne(userno1,userno2,userno3,
                  wnum1, wnum2, wnum3,dvresult) {
+                
+                var randone_arr = [];
+                
+                
                 $(wnum1).text("" + Math.floor((Math.random() * 5) + 1));
                 $(wnum2).text("" + Math.floor((Math.random() * 5) + 1));
                 $(wnum3).text("" + Math.floor((Math.random() * 5) + 1));
-                    
+                
+                randone_arr [0] =$(wnum1).text("" + Math.floor((Math.random() * 5) + 1));
+                randone_arr [1] =$(wnum2).text("" + Math.floor((Math.random() * 5) + 1));
+                randone_arr [2] =$(wnum3).text("" + Math.floor((Math.random() * 5) + 1));
+                
+                 $("#gm1").
+                        html("<p class='w3-text-red'>Clicdsssssssssssss! "+ randone_arr +" </p>")   
             }
             //Showing users selection and generated numbers - Level two
             function radGenTwo(userno1,userno2,userno3,
@@ -229,7 +247,7 @@
                 } else {
 
                     radGenOne("#a1","#a2","#a3","#w1", "#w2", "#w3","#gm1");
-                    compareNum("#a1");
+                   // compareNum("#a1");
                     $("#play").attr("disabled", true).
                      addClass("w3-light-grey");
                     $("#edit").attr("disabled", true).

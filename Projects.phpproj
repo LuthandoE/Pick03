@@ -1,0 +1,468 @@
+"General"
+{
+"ProjectType" = "local"
+"AutoLoadTemplate" = "%s.php;class.%s.php;"
+"IncludeDirs" = ""
+}
+"Configurations"
+{
+    "Release|PHP 5.5"
+    {
+    }
+}
+"Files"
+{
+    "About.html"
+    {
+    "ProjRelPath" = "T"
+    }
+    "About.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap-theme.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap-theme.css.map"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap-theme.min.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap-theme.min.css.map"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap.css.map"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap.min.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\bootstrap.min.css.map"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\style.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\css\\w3.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\css\\font-awesome.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\css\\font-awesome.min.css"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts\\fontawesome-webfont.eot"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts\\fontawesome-webfont.svg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts\\fontawesome-webfont.ttf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts\\fontawesome-webfont.woff"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts\\fontawesome-webfont.woff2"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\fonts\\FontAwesome.otf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\HELP-US-OUT.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\animated.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\bordered-pulled.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\core.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\fixed-width.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\font-awesome.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\icons.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\larger.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\list.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\mixins.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\path.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\rotated-flipped.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\stacked.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\less\\variables.less"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_animated.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_bordered-pulled.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_core.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_fixed-width.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_icons.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_larger.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_list.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_mixins.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_path.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_rotated-flipped.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_stacked.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\_variables.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\font-awesome-4.5.0\\scss\\font-awesome.scss"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\fonts"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\fonts\\glyphicons-halflings-regular.eot"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\fonts\\glyphicons-halflings-regular.svg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\fonts\\glyphicons-halflings-regular.ttf"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\fonts\\glyphicons-halflings-regular.woff"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\fonts\\glyphicons-halflings-regular.woff2"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\jquery.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\projs"
+    {
+    "ProjRelPath" = "T"
+    }
+    "assets\\projs\\gamejs.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-1.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-10.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-11.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-12.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-13.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-14.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-15.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-16.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-17.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-18.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-19.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-2.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-20.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-3.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-4.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-5.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-6.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-7.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-8.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Elegant_Background-9.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "background-imager\\Office.jpg"
+    {
+    "ProjRelPath" = "T"
+    }
+    "chat.class.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "chat.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "config.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "ContactUs.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "dbConnect.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "ForgotPassword.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Forum.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Help.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "index.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "jHome.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\bootstrap.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\bootstrap.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\game.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\jquery-1.11.2.min.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\mobGame.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "js\\npm.js"
+    {
+    "ProjRelPath" = "T"
+    }
+    "logout.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "lue_error_handler.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "message.txt"
+    {
+    "ProjRelPath" = "T"
+    }
+    "ModalWin.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "NavBar.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "NavBar.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "NavBarC.htm"
+    {
+    "ProjRelPath" = "T"
+    }
+    "register.php"
+    {
+    "ProjRelPath" = "T"
+    }
+    "SignIn.php"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}
+"References"
+{
+}

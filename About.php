@@ -42,15 +42,15 @@
         </div>
         <div class="w3-half">
            <div class="w3-card-2 w3-white  w3-round-large">
-           <header class="w3-padding w3-center w3-round-large w3-purple">Pick'n Win</header>
+           <header class="w3-padding w3-center w3-round-large w3-purple">Pick03</header>
            <p class="w3-padding">
-            Pick'n Win is a user-friendly platform that is dedicated to bring fun
+            Pick03 Win is a user-friendly platform that is dedicated to bring fun
             to people while offering easy ways of making money by guessing
-            numbers that match with Pick'n Win numbers.
+            numbers that match with Pick03 numbers.
             <hr />
            </p>
            <p class="w3-padding">
-            Pick'n Win was Found with one goal in mind which is to let the user 
+            Pick03 Win was Found with one goal in mind which is to let the user 
             make some money while having some fun of guessing different numbers that 
             the user think will win. The game is 
             easy to play and to understand. 
@@ -58,16 +58,16 @@
            
            <hr />
            <p class="w3-padding">
-           Pick'n Win also have a <a class="w3-text-blue" href="Forum.php?id=<?php echo mt_rand() ?>">forum
+           Pick03 also have a <a class="w3-text-blue" href="Forum.php?id=<?php echo mt_rand() ?>">forum
            </a> where users share their experience about
-           the  game and the service they get from Pick'n Win. 
+           the  game and the service they get from Pick03. 
            </p>
            <hr /><br />
            </div>
         </div>
         <div class="w3-quarter">
              <div class="w3-card-2 w3-white w3-round-medium">
-             <header class="w3-padding w3-purple w3-center w3-round-large">Pick'n Win Offices:</header>
+             <header class="w3-padding w3-purple w3-center w3-round-large">Pick03 Offices:</header>
              <hr />
              <div class="w3-image w3-padding">
                 <img src="background-imager/Office.jpg" class="responsive" />

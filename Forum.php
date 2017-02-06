@@ -28,6 +28,7 @@
         $stmt->execute(); 
         $stmt->close();
         $sucMessage = "<span class ='w3-text-green'>Message posted successfully!</span>";
+        
         $res = $conn->query("SELECT post.message,post.posted_on,users.username FROM 
                           post INNER JOIN users ON post.userid = users.userid ORDER BY
                           post.posted_on DESC LIMIT 10");
@@ -53,21 +54,6 @@
         '<span class ="w3-tiny">'.$row['posted_on'].'</span>'.'</div>';
      }
      
-     if(isset($_POST['more'])){
-          
-          $res = $conn->query("SELECT post.message,post.posted_on,users.username FROM 
-                              post INNER JOIN users ON post.userid = users.userid ORDER BY
-                              post.posted_on  DESC LIMIT 10 OFFSET 10 ");
-         
-                              
-          $result = '';
-          while($row = mysqli_fetch_array($res)){
-            $result.= '<hr/> <div  class="w3-light-grey w3-padding w3-round-xlarge w3-margin-60">'.
-            '<strong> @'.$row['username'].'</strong>'.'<br/> '.
-            '<span class ="">'.$row['message'].'</span>'.'<br/>'.
-            '<span class ="w3-tiny">'.$row['posted_on'].'</span>'.'</div>';
-         }       
-     }
      $conn->close();
      
     
@@ -125,13 +111,13 @@
                 <form method="post">
                 <div class=" w3-margin-12" id="scroll">
                       <?php echo $result; ?>
-                      <div class="w3-text-blue w3-center"><button name="more" class="w3-border-0 w3-white ">See more</button></div>
+                      
                 </div></form>
              </div>
           </div>
        </div>
        
-       <div class="w3-quarter">ok</div>
+       <div class="w3-quarter">&nbsp;</div>
     </div>
   </div> 
   <div class="w3-margin-24 w3-hide-small" ><hr /></div>

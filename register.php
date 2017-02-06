@@ -100,7 +100,7 @@ require_once ('chat.php');
         .cp{text-shadow: 2px 2px 5px green;}
     </style>
 </head>
-<body class="w3-hide-small" style="background-image: url(background-imager/Elegant_Background-6.jpg);">
+<body  style="background-image: url(background-imager/Elegant_Background-6.jpg);">
      <?php include_once ("NavBar.php") ?>
      <?php include_once ("ContactUs.php") ?>
     <div class="container">
